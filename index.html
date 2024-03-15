@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+document.write("<h2>josn Array into objet</h2>")
+var books = {"Physics":[
+    {"Name":"Physiscs book so easy","Price":7000},
+    {"Name":"Fundamental of Phyiscs","Price":600},
+    {"Name":"Quantam of Phyiscs","Price":300},
+    {"Name":"Analytical of Phyiscs","Price":6500},
+    {"Name":"Atomic of Phyiscs","Price":6040},
+    {"Name":"Applied of Phyiscs","Price":6500},
+
+
+],
+}
+
+var i =0;
+
+
+    for (i =0 ;i<books.Physics.length ;i++) {
+       
+
+           document.writeln("<table border = '1' width = 100 >");
+            document.writeln("<tr><td><b>Name</b></td><td width = 50>" + books.Physics[i].Name+"</td></tr>");
+            document.writeln("<tr><td><b>Price</b></td><td width = 50>" + books.Physics[i].Price +"</td></tr>");
+            document.writeln("</table>");
+  
+
+
+    }
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
